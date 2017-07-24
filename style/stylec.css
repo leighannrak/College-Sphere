@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+}
+.firstpic{
+  top: -307px;
+  left: 275px;
+}/*georgia tech*/
+.secondpic{
+  top: -245px;
+  left: 248px;
+}/*Morehouse*/
+.thirdpic{
+  top: -262px;
+  left: 299px;
+}/*Georgia State*/
+.fourthpic{
+  top: -345px;
+  left: 136px;
+}
+.pic {
+  position: absolute;
+}
