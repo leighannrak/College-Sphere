@@ -1,14 +1,9 @@
-function popup(){
-  var areaID = $(this).attr('id');
-  $("#myDiv").show()
+function showup(){
+    //body.append({{ popup }});
 }
 
 function click(){
-    $("#one").click(popup);
-    $("#two").click(popup);
-    $("#three").click(popup);
-    $("#four").click(popup);
-
+    $("#one").click(showup);
 }
 
  $(document).ready(click)
