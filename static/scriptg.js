@@ -25,6 +25,9 @@ function click(){
     showPopupFor('scad');
     $("#pop").css({display: 'inline', top: -40 - $("#pop").height(), left: 10, position:'relative'});
   });
+  $("#mapp").click(function() {
+      $('#pop').hide();
+  });
 }
 
 $(document).ready(click);
