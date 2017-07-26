@@ -8,14 +8,23 @@ handlers:
 - url: /favicon\.ico
   static_files: favicon.ico
   upload: favicon\.ico
+
 - url: /resources
   static_dir: static
+
 - url: /images
   static_dir: images
+
 - url: /style
   static_dir: style
+
+
+- url: /popup
+  static_dir: popup
+  
 - url: .*
   script: main.app
+
 
 libraries:
 - name: jinja2

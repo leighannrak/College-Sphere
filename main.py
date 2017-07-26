@@ -21,31 +21,24 @@ import sys
 
 sys.path.append('source/')
 
-from popup import PopUp
-from popup import pop_up
+#from popup import PopUp
+#from popup import pop_up
 
 jinja_environment = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)))
 
-def constructPopUpHTML():
-    html_string = "<div style= 'background-color:red; width: 100px; height: 100px;'>\n" # + pop_up.String
-    html_string += "</div>"
-    return html_string
-
 class MainHandler(webapp2.RequestHandler):
   def get(self):
     template = jinja_environment.get_template('template/map.html')
-    template_variables = {"popup":constructPopUpHTML()}
-    self.response.out.write(template.render(template_variables))
+    #template_variables = {"content": pop_up['morehouse']}
+    self.response.out.write(template.render())
 
-class PopHandler(webapp2.RequestHandler):
-  def get(self):
-    template = jinja_environment.get_template('templates/textbox.html')
-    template_variable = {"title": popup.title,
-                         "content": popup.content}
-    self.response.out.write(template.render(template_variables))
+#class PopHandler(webapp2.RequestHandler):
+ # def post(self):
+    #template = jinja_environment.get_template('templates/textbox.html')
+    #template_variable = {"content": pop_up.content}
+    #self.response.out.write(template.render(template_variables))
 
-app = webapp2.WSGIApplication([
-    ('/', MainHandler),
-    ('/pop', PopHandler)
+app= webapp2.WSGIApplication([
+    ('/', MainHandler)
 ], debug=True)
