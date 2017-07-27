@@ -17,23 +17,28 @@
   top: -345px;
   left: 136px;
 }
+.fifthpic{
+  top: -467px;
+  left: 375px;
+}
+.sixthpic{
+  top: -290px;
+  left: 370px;
+}
+.seventhpic{
+  top: -270px;
+  left: 255px;
+}
 .pic {
   position: absolute;
 }
 
-
-.pop{
-  position: absolute;
-  width: 200px;
-  border: 1px solid black;
-  position-radius: 10px;
-}
-
-
 /*Morehouse*/
 #morehouse{
-  background-color: gray;
-  width: 40%;
+  background-color: rgb(200,200,200);
+  width: 30%;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 
@@ -58,8 +63,10 @@
 
 /*GT*/
 #gt{
-  background-color: gray;
-  width: 40%;
+  background-color:  rgb(200,200,200);
+  width: 30%;
+  padding:5px;
+  border-radius: 10px;
 }
 
 
@@ -81,8 +88,10 @@
 }
 /*GSU*/
 #gsu{
-  background-color: gray;
-  width: 40%;
+  background-color:  rgb(200,200,200);
+  width: 30%;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 
@@ -104,8 +113,10 @@
 }
 
 #scad{
-  background-color: gray;
-  width: 40%;
+  background-color:  rgb(200,200,200);
+  width: 30%;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 
@@ -123,5 +134,82 @@
 }
 #more-info4{
   color: purple;
+  font-size: 100%;
+}
+/*Oglethorpe*/
+#oglethorpe{
+  background-color: rgb(200,200,200);
+  width: 30%;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+
+.title5{
+  color: yellow;
+  text-align: center;
+  font-size: 150%;
+}
+#subtitle-color5{
+  color: yellow;
+  font-size: 100%;
+}
+.more-info5{
+  text-align: center;
+
+}
+#more-info5{
+  color: yellow;
+  font-size: 100%;
+}
+
+#emory{
+  background-color: rgb(200,200,200);
+  width: 30%;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.title6{
+  color: MediumBlue;
+  text-align: center;
+  font-size: 150%;
+}
+#subtitle-color6{
+  color: MediumBlue;
+  font-size: 100%;
+}
+.more-info6{
+  text-align: center;
+
+}
+#more-info6{
+  color: MediumBlue;
+  font-size: 100%;
+}
+
+#clark{
+  background-color: rgb(200,200,200);
+  width: 30%;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+
+.title7{
+  color: red;
+  text-align: center;
+  font-size: 150%;
+}
+#subtitle-color7{
+  color: red;
+  font-size: 100%;
+}
+.more-info7{
+  text-align: center;
+
+}
+#more-info7{
+  color: red;
   font-size: 100%;
 }

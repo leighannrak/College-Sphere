@@ -25,6 +25,18 @@ function click(){
     showPopupFor('scad');
     $("#pop").css({display: 'inline', top: -40 - $("#pop").height(), left: 10, position:'relative'});
   });
+  $("#five").click(function() {
+    showPopupFor('oglethorpe');
+    $("#pop").css({display: 'inline', top: -127 - $("#pop").height(), left: 334, position:'relative'});
+  });
+  $("#six").click(function() {
+    showPopupFor('emory');
+    $("#pop").css({display: 'inline', top: 14 - $("#pop").height(), left: 384, position:'relative'});
+  });
+  $("#seven").click(function() {
+    showPopupFor('clark');
+    $("#pop").css({display: 'inline', top: 120 - $("#pop").height(), left: 10, position:'relative'});
+  });
   $("#mapp").click(function() {
       $('#pop').hide();
   });
