@@ -11,7 +11,7 @@ function showPopupFor(idOfCollegeInfo) {
 function click(){
   $("#one").click(function() {
     showPopupFor('gt');
-    $("#pop").css({display: 'inline', top: -327 - $("#pop").height(), left: 305, position:'relative'});
+    $("#pop").css({display: 'inline', top: -290 - $("#pop").height(), left: 305, position:'relative'});
   });
   $("#two").click(function() {
     showPopupFor('morehouse');
