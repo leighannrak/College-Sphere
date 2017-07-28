@@ -29,9 +29,36 @@
   top: -270px;
   left: 255px;
 }
+
+
+/*piedmont park*/
+.onepic{
+  top: -320px;
+  left: 324px;
+}/*georgia aquarium*/
+.twopic{
+  top: -295px;
+  left: 285px;
+}/*Atlantic Station*/
+.threepic{
+  top: -330px;
+  left: 290px;
+}/*Little Star Provision*/
+.fourpic{
+  top: -322px;
+  left: 246px;
+}
+/*Highland Bakery*/
+.fivepic{
+  top: -270px;
+  left: 340px;
+}
+
+
 .pic {
   position: absolute;
 }
+
 
 /*Morehouse*/
 #morehouse{
@@ -49,15 +76,21 @@
 }
 #subtitle-color{
   color: maroon;
-  font-size: 100%;
+  font-size: 70%;
 }
+
+#subtitle-colorz{
+  color: maroon;
+  font-size: 70%;
+}
+
 .more-info{
   text-align: center;
 
 }
 #more-info{
   color: maroon;
-  font-size: 100%;
+  font-size: 80%;
 }
 
 
@@ -77,14 +110,18 @@
 }
 #subtitle-color2{
   color: gold;
-  font-size:100%;
+  font-size:70%;
+}
+#subtitle-colorz2{
+  color: gold;
+  font-size: 70%;
 }
 .more-info2{
   text-align: center;
 }
 #more-info2{
   color: gold;
-  font-size: 100%;
+  font-size: 70%;
 }
 /*GSU*/
 #gsu{
@@ -102,14 +139,18 @@
 }
 #subtitle-color3{
   color: blue;
-  font-size:100%;
+  font-size:70%;
 }
 .more-info3{
   text-align: center;
 }
+#subtitle-colorz3{
+  color: blue;
+  font-size: 70%;
+}
 #more-info3{
   color: blue;
-  font-size: 100%;
+  font-size: 70%;
 }
 
 #scad{
@@ -127,14 +168,18 @@
 }
 #subtitle-color4{
   color: purple;
-  font-size:100%;
+  font-size:70%;
 }
 .more-info4{
   text-align: center;
 }
+#subtitle-colorz4{
+  color: purple;
+  font-size: 70%;
+}
 #more-info4{
   color: purple;
-  font-size: 100%;
+  font-size: 70%;
 }
 /*Oglethorpe*/
 #oglethorpe{
@@ -152,7 +197,11 @@
 }
 #subtitle-color5{
   color: yellow;
-  font-size: 100%;
+  font-size: 70%;
+}
+#subtitle-colorz5{
+  color: yellow;
+  font-size: 70%;
 }
 .more-info5{
   text-align: center;
@@ -160,7 +209,7 @@
 }
 #more-info5{
   color: yellow;
-  font-size: 100%;
+  font-size: 70%;
 }
 
 #emory{
@@ -177,15 +226,18 @@
 }
 #subtitle-color6{
   color: MediumBlue;
-  font-size: 100%;
+  font-size: 70%;
+}
+#subtitle-colorz6{
+  color: MediumBlue;
+  font-size: 70%;
 }
 .more-info6{
   text-align: center;
-
 }
 #more-info6{
   color: MediumBlue;
-  font-size: 100%;
+  font-size: 70%;
 }
 
 #clark{
@@ -194,8 +246,6 @@
   padding: 5px;
   border-radius: 10px;
 }
-
-
 .title7{
   color: red;
   text-align: center;
@@ -203,7 +253,11 @@
 }
 #subtitle-color7{
   color: red;
-  font-size: 100%;
+  font-size: 70%;
+}
+#subtitle-colorz7{
+  color: red;
+  font-size: 70%;
 }
 .more-info7{
   text-align: center;
@@ -211,5 +265,79 @@
 }
 #more-info7{
   color: red;
-  font-size: 100%;
+  font-size: 70%;
+}
+
+
+
+
+#hang1{
+  background-color: rgb(200,200,200);
+  width: 10%;
+  padding: 1px;
+  border-radius: 10px;
+}
+
+
+.titles1{
+  color: #0066ff;
+  text-align: center;
+  font-size: small;
+}
+
+#hang2{
+  background-color: rgb(200,200,200);
+  width: 10%;
+  padding: 1px;
+  border-radius: 10px;
+}
+
+
+.titles2{
+  color: #0066ff;
+  text-align: center;
+  font-size: small;
+}
+
+#hang3{
+  background-color: rgb(200,200,200);
+  width: 10%;
+  padding: 1px;
+  border-radius: 10px;
+}
+
+
+.titles3{
+  color: #0066ff;
+  text-align: center;
+  font-size: small;
+}
+
+#hang4{
+  background-color: rgb(200,200,200);
+  width: 10%;
+  padding: 1px;
+  border-radius: 10px;
+}
+
+
+.titles4{
+  color: #0066ff;
+  text-align: center;
+  font-size: small;
+}
+
+
+#hang5{
+  background-color: rgb(200,200,200);
+  width: 10%;
+  padding: 1px;
+  border-radius: 10px;
+}
+
+
+.titles5{
+  color: #0066ff;
+  text-align: center;
+  font-size: small;
 }
